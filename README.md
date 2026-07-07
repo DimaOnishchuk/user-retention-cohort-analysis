@@ -2,10 +2,9 @@
 
 Measuring User Retention Rate Using Google Sheets and SQL Based on Cohort Analysis.
 
----
 ## 🔗 Live Workbook
 
-[Open the project in Google Sheets][https://docs.google.com/spreadsheets/d/1kVXDS0DLoO0HpOCcLSzX4JYC1ncUn57ewwwBlXoGwko]
+[Open the project in Google Sheets](https://docs.google.com/spreadsheets/d/1kVXDS0DLoO0HpOCcLSzX4JYC1ncUn57ewwwBlXoGwko)
 
 ## 📌 Project Overview
 
@@ -18,7 +17,6 @@ The project covers the complete analytical workflow:
 -Cohort Calculation
 -Google Sheets Visualization
 -Business Insights
----
 
 ## 🎯 Business Problem
 
@@ -26,7 +24,6 @@ User acquisition is expensive.
 Marketing teams need to understand:
 "Which acquisition channels attract users that remain active over time?"
 To answer this question, user cohorts were created based on their registration month and their activity was tracked during the following months.
----
 
 ## 🛠 Tools & Technologies
 
@@ -38,8 +35,6 @@ To answer this question, user cohorts were created based on their registration m
 -Cohort Analysis
 -Retention Analysis
 
----
-
 ## 📊 Metrics
 
 The project focuses on evaluating user retention and acquisition quality using cohort analysis.
@@ -50,7 +45,6 @@ The following metrics were calculated:
 -Month Offset – Number of months since registration.
 -Retention Rate (%) – Percentage of active users compared to the original cohort size.
 -Promo Signup Flag – User acquisition type (Promo vs Organic).
----
 
 ## 🔍 Analysis Process
 
@@ -106,25 +100,19 @@ Business Insights
 
 ## 📈 Dashboard Preview
 
-## 📈 Dashboard Preview
-
-### SQL Output
+ SQL Output
 
 The dataset below represents the final SQL query output after cleaning, transforming, and aggregating the raw data. It contains the cohort month, month offset, promotion flag, and the total number of users for each cohort.
 
 ![SQL Output](screenshots/sql_output.png)
 
----
-
-### Cohort Table
+ Cohort Table
 
 The cohort table summarizes the number of active users for each monthly cohort across six months. It provides an overview of user activity over time and serves as the foundation for retention analysis.
 
 ![Cohort Table](screenshots/cohort_table.png)
 
----
-
-### Retention Rate Heatmap
+ Retention Rate Heatmap
 
 The retention heatmap visualizes the percentage of users who remained active in each month after registration. The color scale highlights retention trends across cohorts, making it easy to identify user engagement patterns over time.
 
