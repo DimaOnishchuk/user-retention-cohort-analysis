@@ -106,21 +106,29 @@ Business Insights
 
 ## 📈 Dashboard Preview
 
-### Daily Active Users
+## 📈 Dashboard Preview
 
-![DAU Trend](screenshots/dau_trend.png)
+### SQL Output
 
-### Weekly Active Users
+The dataset below represents the final SQL query output after cleaning, transforming, and aggregating the raw data. It contains the cohort month, month offset, promotion flag, and the total number of users for each cohort.
 
-![WAU Trend](screenshots/wau_trend.png)
+![SQL Output](screenshots/sql_output.png)
 
-### Monthly Active Users
+---
 
-![MAU Trend](screenshots/mau_trend.png)
+### Cohort Table
 
-### Product Stickiness
+The cohort table summarizes the number of active users for each monthly cohort across six months. It provides an overview of user activity over time and serves as the foundation for retention analysis.
 
-![Stickiness](screenshots/stickiness.png)
+![Cohort Table](screenshots/cohort_table.png)
+
+---
+
+### Retention Rate Heatmap
+
+The retention heatmap visualizes the percentage of users who remained active in each month after registration. The color scale highlights retention trends across cohorts, making it easy to identify user engagement patterns over time.
+
+![Retention Rate Heatmap](screenshots/retention_rate.png)
 
 ## 📈 Key Findings
 
