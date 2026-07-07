@@ -61,8 +61,10 @@ The analysis was performed in several stages:
 10.Calculated Retention Rate for each cohort.
 11.Compared Organic and Promo user retention.
 12.Prepared business conclusions and recommendations.
----
+
+
 ## 🔄 Project Workflow
+
 Raw Data
       │
       ▼
